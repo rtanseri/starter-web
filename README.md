@@ -8,13 +8,15 @@ New Files updated Stash 2
 Sample website with plenty of files for demos
 
 My new text
-
+a a a
 Text on feature branch
 
 Text on feature branch2
 my TEST
 ae a
 Text on MAIN 
+TEST 5
+
 
 Master progressing
 
