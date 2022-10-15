@@ -1,0 +1,862 @@
+Résumé,Clé de ticket,ID de ticket,Type de ticket,État,Clé de projet,Nom du projet,Type de projet,Chef de projet,ID de responsable de projet,Description du projet,Priorité,Résolution,Responsable,ID de responsable,Rapporteur,ID de rapporteur,Créateur,ID de créateur,Création,Mise à jour,Dernier affichage,Résolu,Versions affectées,Composants,Date d'échéance,Votes,Étiquettes,Description,Observateurs,Observateurs,Observateurs,Observateurs,Observateurs,Observateurs,Observateurs,Observateurs,Observateurs,ID des personnes en charge du suivi,ID des personnes en charge du suivi,ID des personnes en charge du suivi,ID des personnes en charge du suivi,ID des personnes en charge du suivi,ID des personnes en charge du suivi,ID des personnes en charge du suivi,ID des personnes en charge du suivi,ID des personnes en charge du suivi,Estimation originale,Estimation restante,Temps consacré,Ratio du travail réel comparé à l'estimation,Σ Estimation originale,Σ Estimation restante,Σ Temps consacré,Niveau de sécurité,Inward issue link (Blocks),Lien de ticket sortant (Blocks),Lien de ticket sortant (Blocks),Lien de ticket sortant (Blocks),Lien de ticket sortant (Blocks),Lien de ticket sortant (Blocks),Inward issue link (Relates),Lien de ticket sortant (Relates),Lien de ticket sortant (Relates),Lien de ticket sortant (Test),Lien de ticket sortant (Test),Lien de ticket sortant (Test),Pièce jointe,Pièce jointe,Pièce jointe,Pièce jointe,Champs personnalisés (Affected services),Champs personnalisés (Begin Date),Champs personnalisés (Business Priority),Champs personnalisés (Change completion date),Champs personnalisés (Change reason),Champs personnalisés (Change risk),Champs personnalisés (Change start date),Champs personnalisés (Change type),Champs personnalisés (Checklist Completed),Champs personnalisés (Checklist Content YAML),Champs personnalisés (Checklist Text),Champs personnalisés (End Date),Champs personnalisés (Environment),Champs personnalisés (Epic Link),Champs personnalisés (Impact),Champs personnalisés (Issue color),Champs personnalisés (Legacy ID),Champs personnalisés (Locked forms),Champs personnalisés (Open forms),Champs personnalisés (Rank),Champs personnalisés (Request Type),Champs personnalisés (Request language),Champs personnalisés (Request participants),Champs personnalisés (Revision),Niveau de satisfaction,Sprint,Sprint,Sprint,Champs personnalisés (Start date),Champs personnalisés (Story Points),Champs personnalisés (Story point estimate),Champs personnalisés (Stream / Squad),Champs personnalisés (Submitted forms),Champs personnalisés (Target end),Champs personnalisés (Target start),Champs personnalisés (Team),Champs personnalisés (Test Case),Champs personnalisés (Total forms),Champs personnalisés (User Story),Champs personnalisés ([CHART] Date of First Response),Champs personnalisés (development),Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Commentaire,Catégorie d'état
+Dashboard Benchmark Data: Figures display formatting,BEQO-1328,18094,Bug,Ready to deploy on PP,BEQO,Beqom - WP3,software,Janna Chollet,608176b2b892750072a3c52e,,High,,Raymond Tanseri,557058:f422a208-346f-422f-8b71-c34d537588a0,Steven ZABALLOS,5f47eea8ea5e2f0039cba1bc,Steven ZABALLOS,5f47eea8ea5e2f0039cba1bc,11/août/22 9:42 AM,14/sept./22 9:50 AM,14/sept./22 12:03 PM,,,,,0,PROD,The data should be displayed in thousands as all Graph in Dashboard *Compensation Evolution*,Cedrick Overzee,Steven ZABALLOS,,,,,,,,5cddeb1fa67da10dbe9d715e,5f47eea8ea5e2f0039cba1bc,,,,,,,,3600,3600,,0 %,3600,3600,,,,BEQO-550,,,,,,,,,,,06/sept./22 3:56 PM;ug:2f55e6f8-eccb-4aed-a758-b53d9d867ac9;image-20220906-135538.png;https://pictet-spf01.atlassian.net/secure/attachment/14713/image-20220906-135538.png,,,,,,,,,,,,,,,,PRE-PROD,BEQO-271,,,,,,2|i004y6:r,,,,,,WP3 - Sprint 5,WP3 - Sprint 6,,,,,YEP improvement (green),,,,,,,"{{AS A}} 
+{{I WANT TO}} 
+{{SO THAT}} 
+",2022-09-06 13:56:27.102,,"06/sept./22 3:56 PM;5cddeb1fa67da10dbe9d715e;!image-20220906-135538.png|width=934,height=263!
+
+Done Ready to deploy on PP
+
+[https://excentive.egnyte.com/navigate/folder/7ae2089b-8071-42ca-9b05-8083684ff3aa|https://excentive.egnyte.com/navigate/folder/7ae2089b-8071-42ca-9b05-8083684ff3aa]",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,En cours
+Budget Monitoring: Add a parameter table that allows the user to switch between currencies,BEQO-1116,17882,Story,Ready to deploy on PP,BEQO,Beqom - WP3,software,Janna Chollet,608176b2b892750072a3c52e,,High,,Raymond Tanseri,557058:f422a208-346f-422f-8b71-c34d537588a0,Christian Patzig,62615435f698310070a9259a,Christian Patzig,62615435f698310070a9259a,27/juil./22 2:56 PM,14/sept./22 9:19 AM,14/sept./22 9:52 AM,,,,,0,,"To be changed in Budget Monitoring:
+
+!image-20220727-125535.png|width=2578,height=936!
+
+
+
+* Change in the RDL file to have a CCY passed as parameter
+* Manage table to checked / unchecked the corresponding CCY
+* After checking one CCY, pass the parameter to the SPs used in Guideline Monitoring report
+* Convert the amounts in the SP by using the parameter",Christian Patzig,,,,,,,,,62615435f698310070a9259a,,,,,,,,,57600,57600,,0 %,57600,57600,,,,,,,,,BEQO-167,,,BEQO-1620,,,27/juil./22 2:56 PM;ug:17f7a6ce-a74e-4ead-9314-08b768aea29f;image-20220727-125535.png;https://pictet-spf01.atlassian.net/secure/attachment/14363/image-20220727-125535.png,,,,,,,,,,,,,,,,,BEQO-272,,,,,,2|i00162:yuzzi,,,,,,WP3 - Sprint 6,,,,,,YEP improvement (green),,,,,"{{GIVEN}} 
+{{WHEN}} 
+{{THEN}} ",,"{{AS A}} 
+{{I WANT TO}} 
+{{SO THAT}} ",,,27/juil./22 2:58 PM;62615435f698310070a9259a;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] : US created –>  May I please ask you to estimate the ticket?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,En cours
+PROD - Historical Massive Export,BEQO-1067,17832,Story,Ready to deploy on PP,BEQO,Beqom - WP3,software,Janna Chollet,608176b2b892750072a3c52e,,Medium,,Raymond Tanseri,557058:f422a208-346f-422f-8b71-c34d537588a0,Steven ZABALLOS,5f47eea8ea5e2f0039cba1bc,Steven ZABALLOS,5f47eea8ea5e2f0039cba1bc,19/juil./22 3:32 PM,14/sept./22 11:32 AM,14/sept./22 9:19 AM,,,,,0,changerequest,"Hello 
+
+I am quite surprised to see that when I select the previous CR YEP2021 for example
+
+# We agree that if we select the CR 2021 we should have the population of the CR 2021 and not the one of the CR 2022?
+
+!image-20220719-133147.png|width=1484,height=212!
+
+[~accountid:5f3541c63aa35b003fe241e1] [~accountid:5f47e7ec9a013100410bf481] [~accountid:62615435f698310070a9259a] FYI",Christian Patzig,Jeremiasz Konopka,Raymond Tanseri,Ryan Granville,Steven ZABALLOS,,,,,62615435f698310070a9259a,5cddeac91b6dba0dc52c1de3,557058:f422a208-346f-422f-8b71-c34d537588a0,614b326e47a8b5006f890b7b,5f47eea8ea5e2f0039cba1bc,,,,,72000,72000,,0 %,72000,72000,,,,BEQO-951,BEQO-325,BEQO-974,BEQO-287,BEQO-1630,,BEQO-951,,BEQO-1623,BEQO-1716,,19/juil./22 3:32 PM;szaballos;image-20220719-133147.png;https://pictet-spf01.atlassian.net/secure/attachment/14311/image-20220719-133147.png,27/juil./22 3:06 PM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220727-112831.png;https://pictet-spf01.atlassian.net/secure/attachment/14365/image-20220727-112831.png,27/juil./22 3:06 PM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220727-125236.png;https://pictet-spf01.atlassian.net/secure/attachment/14364/image-20220727-125236.png,,,,,,,,,,,,,,PROD,BEQO-271,,,,,,2|i0035r:,,,,,,WP3 - Sprint 6,,,,,,YEP improvement (green),,,,,It is now a change request,,"{{AS A}} 
+{{I WANT TO}} 
+{{SO THAT}} 
+",2022-07-20 07:40:23.258,,"20/juil./22 9:40 AM;5cddeac91b6dba0dc52c1de3;Hi [~accountid:5f47eea8ea5e2f0039cba1bc] 
+
+implemented security (across the system) is based on the current comp round. Even if you select the previous comp round in the report filters, you’ll see employees you’re eligible for this year, 
+
+I remember we had the US to split security per comp round and use historical security. Although, I can’t find it now. [~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] do you remember what were the last agreements?","20/juil./22 9:49 AM;557058:f422a208-346f-422f-8b71-c34d537588a0;[https://pictet-spf01.atlassian.net/browse/BEQ-3083|https://pictet-spf01.atlassian.net/browse/BEQ-3083|smart-link] 
+
+[https://pictet-spf01.atlassian.net/browse/BEQO-653|https://pictet-spf01.atlassian.net/browse/BEQO-653|smart-link] 
+
+[~accountid:5cddeac91b6dba0dc52c1de3] We applied this logic for the Tourniquet - Querying all prior rounds, based on the CURRENT population a user has access to without doing a lookup and checking on eligible employees per comp rounds.","20/juil./22 10:06 AM;5f47eea8ea5e2f0039cba1bc;[~accountid:5cddeac91b6dba0dc52c1de3] [~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] thank you for your answer.
+
+I suspected this answer, I find it confusing then to have the choice to be able to select a past CR but that will be based on the active population of the present CR.
+Would it be possible to set the query on the population of the past CR and not on the current one? Because as it is, there is no improvement compared to Onyx, and this is annoying for the creation, the analysis of historical report.
+
+[~accountid:5f3541c63aa35b003fe241e1] [~accountid:62615435f698310070a9259a] [~accountid:5f47e7ec9a013100410bf481] FYI","21/juil./22 4:46 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;Hi [~accountid:5f47eea8ea5e2f0039cba1bc] 
+
+We need to discuss  with CAS team how we can review the security based on historical data.
+
+Indeed today we do not store the settings of 2021 in any table and therefore the population that you see today will be the people you are allowed to see in historical rounds.
+
+
+
+If you need to have access to historical data we need to define some rules OR store at the end of each CR the population you were allow to see before switching to the new round.
+
+Lets plan a meeting [~accountid:62615435f698310070a9259a] with CAS and Steven.",22/juil./22 11:23 AM;62615435f698310070a9259a;Update: Call will take place on 26. July  at 2pm. ,"27/juil./22 3:06 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;*Specs:* We need to review the way security is handled for Historical rounds.
+
++*A - Current Situation:*+
+
+Users have access to a specific population as of the *YEP effective Date i.e 31/12/2022*. Those users would have access to all historical comp data of *THOSE people* 
+
+*Example:* 
+
+User A has access to Population PAM
+
+* The User A would have access to all employees who are PAM as of 31 12 2022 *for the current comp round*
+* Same view on historical data : that would mean if an employee was PAS in the past and is PAM as of 31 12, *the user A would see him*
+
++*B- New request:*+
+
+* Users have access to a specific population as of the *YEP effective Date i.e 31/12/2022*. Those users would have access to all employees who were PAM in the past for historical round (as of 31 12 N-1, N-2 etc)
+
+*Example:* 
+
+User A has access to Population PAM
+
+* The User A would have access to all employees who are PAM as of 31 12 2022  *for the current comp round*
+* On the historical data, the user A should have access to ALL employees who were PAM for the historical round  (as of 31 12 N-1, N-2 etc)
+
+
+
+This would request a new procedure to calculate, for all rounds what was the population as of the end of the year
+
+
+
+*TO DO:*
+
+
+
++1 - Generate security rows for one prior round+
+
+* Create a new Stored Procedure named : *_sp_global_population_object_security_comp_**round*
+** Parameters
+*** @CompRoundId INT
+* Retrieve data from the table *_tb_Global_Profile_Security_Assignment_YEP*  (for the Active Round and not the CompRoundId passed in parameter)
+** Extract the criteria of the selected population
+** Get the criteria of the population and add / update the Comp Round at the end of the clause to use the comp round ID passed in parameter in the SP @CompRoundId
+
+Example, for comp round 2019:
+
+* Population criteria is 
+
+!image-20220727-112831.png|width=1046,height=300!
+
+* Extract the criteria and update the comp roud name to be 2019
+
+(\[Organizational data.Legal Entity Name]= \['Pictet Asset Management (Japan) Ltd.']AND\[Organizational data.Department Name]<>\['Human Resources']AND \[Comp [Round.Name|http://Round.Name]]= \['YEP{color:#ff5630}*2019']*{color})
+
+
+
+* Apply this criteria on the YEP universe view of the population 
+
+
+
+* If CompRound is an historical comp round (check is active flag from CompRound Referential)
+** MERGE to refresh the table
+** Store the outcome of that population in a new table named *_tb_Global_Population_Object_Security_Historical_CompRound* having the following structure
+*** CompRoundId INT
+*** UserId INT
+*** ProfileId INT
+*** PayeeId INT
+*** HrId INT
+*** Pernr INT
+*** SecurityType NVARCHAR 20 = *YEP*
+** {color:#bf2600}*REMOVE the user / payee row as a user MUST NOT SEE ITS DATA*{color}
+* If CompRound is the active round (check is active flag from CompRound Referential)
+** Store the outcome of that population in a new table named *_tb_Global_Population_Object_Security_Active_CompRound* having the following structure
+*** CompRoundId INT
+*** UserId INT
+*** ProfileId INT
+*** PayeeId INT
+*** HrId INT
+*** Pernr INT
+*** SecurityType NVARCHAR 20 = *YEP*
+** {color:#bf2600}*REMOVE the user / payee row as a user MUST NOT SEE ITS DATA*{color}
+
+
+
++2 - General Action to refresh historical security rows+
+
+An action has to be created and can be executed manually
+
+!image-20220727-125236.png|width=1571,height=847!
+
+=> Refresh Historical Security Access
+
+This action will loop through all prior comp round and will populate the table with the tasks defined in the TO DO +1 - Generate security rows for one prior round+
+
+* Create a SP named *_sp_global_population_object_security_historical_comp_**round_all*
+** Loop through all historical comp rounds (i.e IsActive = 0) from CompRound referential table
+** Call the SP *_sp_global_population_object_security_comp_**round* and pass the CompRoundId 
+
++3- Create a new Security View that will do the following+
+
+Return the following columns
+
+* CompRoundId 
+* UserId 
+* ProfileId 
+* PayeeId 
+* HrId 
+* Pernr 
+* SecurityType 
+
+
+
+The view should do a UNION ALL of the following and should be named *_vw_YEP_Security_CompRound*
+
+First Part : *Active Comp Round*
+
+Get the values from the table *_tb_Global_Hierarchy_Object_Security* for the current active comp round filtered on YEP security type
+
+Second Part : *Historical Comp Round*
+
+Get the values from the table *_tb_Global_Population_Object_Security_Historical_CompRound* , filtered on YEP security type
+
+
+
++4 - Change Massive Export Security check+
+
+The Massive Export report has to be changed and the security should do a lookup on the view *_vw_YEP_Security_CompRound*
+
+on the CompRound, User, Profile to identify who are the employee a user is supposed to have access to.
+
+
+
++5 - Change HR Budget Monitoring report+
+
+The Massive Export report has to be changed and the security should do a lookup on the view *_vw_YEP_Security_CompRound*
+
+on the CompRound, User, Profile to identify who are the employee a user is supposed to have access to.
+
+
+
+{color:#bf2600}*NOTE THAT THIS PROPOSAL WORKS ONLY FOR THE PROFILE SECURITY WHERE WE HAVE THE TOP NODE PICTET GROUP SELECTED*{color}
+
+{color:#bf2600}*In PROD and PP this is ALWAYS the CASE  but if ONE DAY someone needs to give an access at a specific node, that proposal has to be reviewed (we would need  to store the HIstorical Tree anytime before doing the switch).*{color}
+
+
+
+FYI [~accountid:5f3541c63aa35b003fe241e1] [~accountid:62615435f698310070a9259a] [~accountid:5cddeac91b6dba0dc52c1de3] [~accountid:614b326e47a8b5006f890b7b] ",02/août/22 10:26 AM;614b326e47a8b5006f890b7b;Transformed this change request to a User Story and added a label so that it can be discussed in the next CRB,19/août/22 10:33 AM;614b326e47a8b5006f890b7b;CRB: Approved for development in sprint 6,02/sept./22 11:27 AM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:614b326e47a8b5006f890b7b]  OK to proceed.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,En cours
+Dashboard evolution employee compensation: inconsistence in % of target bonus for future CR: 0% or 100% ? ,BEQO-757,17521,Bug,Ready to deploy on PP,BEQO,Beqom - WP3,software,Janna Chollet,608176b2b892750072a3c52e,,High,,Raymond Tanseri,557058:f422a208-346f-422f-8b71-c34d537588a0,Erwin GUILLEMAUD,5f47e7ec9a013100410bf481,Erwin GUILLEMAUD,5f47e7ec9a013100410bf481,16/juin/22 3:17 PM,14/sept./22 9:50 AM,07/sept./22 3:23 PM,,June,OldWP2,,0,PROD,"For CR going forward, the rule of % achievement on target bonus should be consistent between year. 
+
+So, if it has been decided to put 0% for the 2022 CR, it’s logic to apply the same rule 2023 rather than to put 100% by default.
+
+[~accountid:62ab219bbfade20069667991] FYI
+
+!image-20220616-133234.png|width=576,height=302!",Cedrick Overzee,Christian Patzig,Daniel Mc Phillips,Erwin GUILLEMAUD,Estelle TORNARE,François LEROUX,Raymond Tanseri,Ryan Granville,,5cddeb1fa67da10dbe9d715e,62615435f698310070a9259a,61b9d11940142900701384cf,5f47e7ec9a013100410bf481,5f47e95ffdc3f5003f0371a5,5f3541c63aa35b003fe241e1,557058:f422a208-346f-422f-8b71-c34d537588a0,614b326e47a8b5006f890b7b,,3600,3600,,0 %,3600,3600,,,,,,,,,,,,,,,16/juin/22 3:32 PM;eguillemaud;image-20220616-133234.png;https://pictet-spf01.atlassian.net/secure/attachment/14050/image-20220616-133234.png,05/sept./22 3:10 PM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220905-130746.png;https://pictet-spf01.atlassian.net/secure/attachment/14702/image-20220905-130746.png,05/sept./22 5:40 PM;ug:195fe57f-21cd-4ef7-b99f-e7d09df06f25;image-20220905-154015.png;https://pictet-spf01.atlassian.net/secure/attachment/14708/image-20220905-154015.png,07/sept./22 3:22 PM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220907-132211.png;https://pictet-spf01.atlassian.net/secure/attachment/14725/image-20220907-132211.png,,,,,,,,,,,,,,,,,,,,2|i006d7:,,,,,,WP3 - Sprint 6,,,,,,YEP improvement (green),,,,,,,"{{AS A}} 
+{{I WANT TO}} 
+{{SO THAT}} 
+",2022-07-25 15:50:50.945,,"25/juil./22 5:50 PM;5f47e95ffdc3f5003f0371a5;[~accountid:62615435f698310070a9259a] [~accountid:5f47e7ec9a013100410bf481] Hi, I think it is really an issue not to fix quickly the 0% for the bonuses in 2022. It is very confusing for the managers and HR colleagues and already led to mistakes when they checked the TTC 2022 and not noticed the bonus at 0. Can put put this request as high priority and just let the bonus at 100%?
+
+[~accountid:62ab219bbfade20069667991] FYI",25/juil./22 5:53 PM;62615435f698310070a9259a;[~accountid:5f3541c63aa35b003fe241e1] FYI,25/juil./22 5:57 PM;5f3541c63aa35b003fe241e1;[~accountid:614b326e47a8b5006f890b7b] can you please agend for next CRB? thx,26/juil./22 4:34 PM;5f47e95ffdc3f5003f0371a5;[~accountid:5f47ece23aa35b003f6ca294] FYI,"26/juil./22 4:54 PM;62615435f698310070a9259a;[~accountid:614b326e47a8b5006f890b7b] I added the label “changerequest”, so it should appear in your filter right? ","18/août/22 10:53 AM;62615435f698310070a9259a;In the CRB me moved this ticket Out of Scope [~accountid:614b326e47a8b5006f890b7b] : Can you please confirm?
+
+ ","02/sept./22 5:01 PM;5f47e95ffdc3f5003f0371a5;[~accountid:62615435f698310070a9259a] I disagree with this decision, it is very important and must be fixed",02/sept./22 5:02 PM;5f47e95ffdc3f5003f0371a5;[~accountid:5f47eea8ea5e2f0039cba1bc] [~accountid:605b13d82ce4be0071ec4abb] [~accountid:605b13d914a23b0069cc0946] FYI,05/sept./22 2:33 PM;614b326e47a8b5006f890b7b;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] Can you please propose design and scope,"05/sept./22 3:10 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:5f47e7ec9a013100410bf481] 
+
+* for the current comp round i.e CR 2022 in that case, the score is coming from the YEP Grid and if you see 0% its because in the YEP its empty or 0 (it should be populated from BSC)
+
+!image-20220905-130746.png|width=576,height=453!
+
+if there was some values, it would not equal to 0.
+
+
+
+* for the next round, if the employee has a target bonus as of 01 04 2023, we set the value to 100% otherwise we make it empty.
+
+So we do not set the value to 0% in the current round : it depends on the Process Grid value - and if nothing is populated in the YEP grid it will equal to 0.
+
+However, as we changed the load of data due to BSC (removal of Employee Additional information grid), people who ARE NOT in BSC would have their total score always empty.
+
+[~accountid:5cddeac91b6dba0dc52c1de3] Please think of adjusting the soft weighting and therefore the total score would be 100% by default for all employee not bsc.","05/sept./22 5:40 PM;61b9d11940142900701384cf;In Prod, HRID 63994 has no parts in 2022, but it’s correct in 2023.
+
+To be clear, columns %soft score, %Total score, TOtal bonus (excl. bonus), special bonus and Total bonus (with special) should be at 0. Column Target bonus @100% should have the TB amount (as correctly shown in 2023).
+Below: in red, the data which is missing
+
+!image-20220905-154015.png|width=1233,height=222!",06/sept./22 10:57 AM;614b326e47a8b5006f890b7b;Increased from low to High as per comment of Estelle during last CRB,"06/sept./22 1:24 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;As discussed with [~accountid:61b9d11940142900701384cf] 
+
+* *For Year N+1*: what is misleading is to display a score of 100%. The proposal of [~accountid:61b9d11940142900701384cf]  is to clear out the columns (Soft, Hard, Total to be EMPTY for Year N+1) - but still to calculate the total target comp taking into account the target bonus at 100%
+
+FYI [~accountid:614b326e47a8b5006f890b7b] [~accountid:62615435f698310070a9259a] ","07/sept./22 1:49 PM;5f47e7ec9a013100410bf481;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] as explained yesterday, it’s normal to have 0% in *Score* for 2022 as there is no Manager inputs.
+
+what is not normal is to have a *score* at 100% by default in the line 2023 and the problem is here because it creates an inconsistency.
+
+Target * score (simplified formula, because the real formula is more complex: TB * soft weighting * soft score +  TB * hard weighting * soft score) = to take into account *REALIZED* view
+
+
+
++*Other topic*+: the weighting at 100% for Non-Bsc (standard target) and X% (ex: 30%) for the soft and Y% (ex: 70%) for Hard is a separated topic and it’s normal to have values 
+
+TB * soft weighting  +  TB * hard weighting = to take into account *TARGET* view
+
+[~accountid:5cddeb1fa67da10dbe9d715e] FYI","07/sept./22 3:22 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:5cddeb1fa67da10dbe9d715e] 
+
+The only thing to do is to clear out the scores, in the SP \[_sp_report_dataset_YEP_Process_Employee_Compensation_History_Data], for Year N+1, put NULL in the 3 columns.
+
+
+
+!image-20220907-132211.png|width=1009,height=451!","09/sept./22 5:08 PM;5cddeb1fa67da10dbe9d715e;Done, Ready to deploy on PP
+
+[https://excentive.egnyte.com/navigate/folder/0898d29a-5753-429d-9ab7-ec5fddbfccf6|https://excentive.egnyte.com/navigate/folder/0898d29a-5753-429d-9ab7-ec5fddbfccf6]",,,,,,,,,,,,,,,,,,,,,,,,En cours
+Tourniquet Statement: the Payroll should be displayed for someone with an adjusted target bonus at zero and a package view with different amount,BEQO-499,17261,Bug,Ready to deploy on PP,BEQO,Beqom - WP3,software,Janna Chollet,608176b2b892750072a3c52e,,High,,Raymond Tanseri,557058:f422a208-346f-422f-8b71-c34d537588a0,Erwin GUILLEMAUD,5f47e7ec9a013100410bf481,Erwin GUILLEMAUD,5f47e7ec9a013100410bf481,03/mai/22 11:50 AM,14/sept./22 9:46 AM,14/sept./22 12:03 PM,,,OldWP2,,0,,"Ex: HIRD 2929: the adjusted was filled at zero in SAP, and th eissue is that the tourniquet statement does not display that the effective amount to pay is ZERO, therefore the communicated amount during the tourniquet is not good. The payroll view should be indicated and the bonus amount to pay in this section should be zero
+
+[~accountid:60194b4dc8c36c0069a95a05] FYI",Cedrick Overzee,Céline LY,Christian Patzig,Erwin GUILLEMAUD,Jeremiasz Konopka,Raymond Tanseri,Ryan Granville,,,5cddeb1fa67da10dbe9d715e,60194b4dc8c36c0069a95a05,62615435f698310070a9259a,5f47e7ec9a013100410bf481,5cddeac91b6dba0dc52c1de3,557058:f422a208-346f-422f-8b71-c34d537588a0,614b326e47a8b5006f890b7b,,,3600,3600,,0 %,3600,3600,,,,,,,,,,,,,,,03/mai/22 11:47 AM;eguillemaud;image-20220503-094742.png;https://pictet-spf01.atlassian.net/secure/attachment/13943/image-20220503-094742.png,02/août/22 2:01 PM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220802-120103.png;https://pictet-spf01.atlassian.net/secure/attachment/14397/image-20220802-120103.png,05/sept./22 10:14 AM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220905-075937.png;https://pictet-spf01.atlassian.net/secure/attachment/14693/image-20220905-075937.png,,,,,,,,,,,,,,,BEQO-275,,,,,,2|hzzhin:0hxf,,,,,,WP3 - Sprint 6,,,,,,YEP improvement (green),,,,,,,"{{AS A}} 
+{{I WANT TO}} 
+{{SO THAT}} 
+",2022-05-19 13:57:42.162,,19/mai/22 3:57 PM;60194b4dc8c36c0069a95a05;Business deadlines: March 2023 (before the release of the Fiche tourniquet by the Managers),15/juil./22 10:16 AM;614b326e47a8b5006f890b7b;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] do we still need that one? Jeremiasz mentioned you might already have done some changes in another US that might have rendered this one obsolete. ,"19/juil./22 5:02 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:614b326e47a8b5006f890b7b] 
+
+I need to clarify that one with [~accountid:5f47e7ec9a013100410bf481] when he is back as its clashing with the initial request:
+
+
+
+*IF PA9008_TARBO_ADJ <> PA9008_TARBO_T (*{color:#bf2600}*excepted if PA9008_TARBO_ADJ = 0)*{color}
+
+*OR PA9008-GUAR_ADJ <> PA9008_GUAR_BONUS_T (*{color:#bf2600}*excepted if PA9008-GUAR_ADJ = 0*{color}*)*
+
+*OR Employee is in DCM calculation Grid*
+
+*THEN we display payroll*
+
+*ELSE payroll view not to display*
+
+I need to understand the meaning of {color:#bf2600}*excepted*{color}. 
+
+Does it mean we need to show IF equals to 0 ? Or if equals we do not show?
+
+So if *PA9008_TARBO_ADJ* <> *PA9008_TARBO_T* AND {color:#bf2600}*PA9008_TARBO_ADJ*{color} <> 0
+
+OR  *PA9008_TARBO_ADJ* <> *PA9008_TARBO_T* OR ({color:#bf2600}*PA9008_TARBO_ADJ*{color} = 0)
+
+
+
+[~accountid:5cddeac91b6dba0dc52c1de3] I do not know if you wrote down this 'except' clause but if you did please clarify.","20/juil./22 3:22 PM;5cddeac91b6dba0dc52c1de3;Sorry, [~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] I don’t remember the exact meaning of this phrase. Let’s wait for Erwin to clarify.","29/juil./22 8:24 PM;5f47e7ec9a013100410bf481;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] [~accountid:5cddeac91b6dba0dc52c1de3] Is it possible to have a case where there is an amount in target bonus in package view with a rating of perf (for example 95% for HRID 2929), but the adjusted target bonus that has been filled in the 9008 to reflect a departure is at zero. And in this specific case the tourniquet will show on the target view a positive amount of target to pay (17 k * 95% = 16,15 K) whereas in reality the payroll amount calculated behind (Short term incentive bonus) +*is ZERO*+ (based on adjusted Target Bonus).
+
+And the problem with the current rule of the display of the payroll view is that we don’t see that the amount to announce is ZERO. So I just want that we refine the display rule of the payroll view to ensure that this case is captured.
+
+To reply to the question with the term “Except”, please could you give me the the ticket number where I wrote this: I would like to know in which context I added it, but I think it was to avoid to display the payroll in the mainly cases where there is an amount of Target bonus in package view, and adjusted at zero and the perf at Zero. 
+
+So, to conclude yes Raymond you are right, this 2 request are apposite and to solve it I propose to refine like this: 
+
+*on display la payroll*
+
+*IF PA9008_TARBO_ADJ <> PA9008_TARBO_T excepted in case where PA9008_TARBO_ADJ = 0 and Perf = 0*
+
+etc…
+
+But for the guaranteed bonus I don’t know why I put the rule *(*{color:#bf2600}*excepted if PA9008-GUAR_ADJ = 0*{color}*)*, does make not sense, so I need to definitively read the concerned ticket if you (Raymond) can find it.","02/août/22 2:01 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:5f47e7ec9a013100410bf481] 
+
+[https://pictet-spf01.atlassian.net/browse/BEQ-3092|https://pictet-spf01.atlassian.net/browse/BEQ-3092|smart-link] 
+
+!image-20220802-120103.png|width=1068,height=394!
+
+Please confirm so that we can update the rule.",25/août/22 9:22 AM;62615435f698310070a9259a;[~accountid:5f47e7ec9a013100410bf481] Did you have the chance to confirm this for Raymond before his vacation?,"31/août/22 2:54 PM;62615435f698310070a9259a;*YEP Clarification Meeting - Outcome 31.08.2022*
+
+[~accountid:5f47e7ec9a013100410bf481] : Please review the ticket until Friday 02.09.2022","01/sept./22 3:24 PM;5f47e7ec9a013100410bf481;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0]  Final spec is  
+
+*IF PA9008_TARBO_ADJ <> PA9008_TARBO_T* {color:#bf2600}*and Score <> 0*{color}
+
+*OR PA9008-GUAR_ADJ <> PA9008_GUAR_BONUS_T* *-(-*{color:#bf2600}*-excepted if PA9008-GUAR_ADJ = 0-*{color}*-)-* {color:#bf2600}*remove the exception*{color}
+
+*OR Employee is in DCM calculation Grid*
+
+*THEN we display payroll*
+
+*ELSE payroll view not to display*
+
+[~accountid:62615435f698310070a9259a] FYI","05/sept./22 10:14 AM;557058:f422a208-346f-422f-8b71-c34d537588a0;In the SP \[*_sp_report_dataset_YEP_Tourniquet_Statement_Payroll*]
+
+
+
+the formula: 
+
+!image-20220905-075937.png|width=670,height=136!
+
+
+
+cannot be used anymore and we cannot refer to the field ProrataFlagPayout to handle the criteria.
+
+
+
+_Reminder:_
+
+ _,'ProrataFlagPayOut' = CASE WHEN (IT9008.GuaranteedBonusEmploymentPercentage <> IT9008.GuarBonus_Adj AND IT9008.GuarBonus_Adj <> 0) OR (IT9008.TargetBonusEmploymentPercentage <> IT9008.AdjustedTargetBonus AND IT9008.AdjustedTargetBonus <> 0) THEN 'Yes' ELSE NULL END_    
+
+
+
+The variable @ast1 should be doing the following:
+
+
+
+SELECT  @ast1 =
+
+CASE WHEN 
+
+(IT9008.GuaranteedBonusEmploymentPercentage <> IT9008.GuarBonus_Adj AND ISNULL(realized.TotalScorePct,0) <> 0) 
+
+OR (IT9008.TargetBonusEmploymentPercentage <> IT9008.AdjustedTargetBonus)
+
+THEN 1 ELSE 0 END    
+
+ FROM _tb_YEP_Repository_Realized_Package realized
+
+ INNER JOIN 
+
+_tb_Comp_Round_Referential cr
+
+ON realized.CompRoundId = [cr.ID|http://cr.ID]
+
+ INNER JOIN
+
+_tb_bqm_IT9008 IT9008
+
+ON IT9008.PayeeID = realized.PayeeId
+
+AND cr.YEPEffectiveDateCurrentYear BETWEEN IT9008.StartDate and IT9008.EndDate
+
+WHERE
+
+realized.CompRoundId = @CompRoundId AND realized.PayeeId = @PayeeId",05/sept./22 10:15 AM;557058:f422a208-346f-422f-8b71-c34d537588a0;Estimated [~accountid:614b326e47a8b5006f890b7b] ,"09/sept./22 4:01 PM;5cddeb1fa67da10dbe9d715e;Ready to deploy on PP
+
+[https://excentive.egnyte.com/navigate/folder/16081074-b09f-4fe1-ab0d-dbe8ab2248fe|https://excentive.egnyte.com/navigate/folder/16081074-b09f-4fe1-ab0d-dbe8ab2248fe]",,,,,,,,,,,,,,,,,,,,,,,,,,,,En cours
+Mobility flag: Only the mobility during the specified range of the performance year of the process should be flagged.,BEQO-161,15918,Story,Ready to deploy on PP,BEQO,Beqom - WP3,software,Janna Chollet,608176b2b892750072a3c52e,,Highest,,Raymond Tanseri,557058:f422a208-346f-422f-8b71-c34d537588a0,Céline LY,60194b4dc8c36c0069a95a05,Céline LY,60194b4dc8c36c0069a95a05,20/sept./21 7:08 PM,14/sept./22 9:47 AM,14/sept./22 12:03 PM,,,,,0,,"requested by CAS Team (Laure)  in this ticket: [https://pictet-spf01.atlassian.net/browse/BEQ-1913|https://pictet-spf01.atlassian.net/browse/BEQ-1913]
+
+1. HRID 10586 : This is a person in CDM, who was a former employee, with a new contract starting within the period range, he is detected with the flag meanwhile he should’t as he was not active before.
+--> We should then add the condition of the person being “active” for the first period while checking the change of BL/Country. (this is not critic : so  could you please had it in the Backlog if not corrected)
+
+!image-2021-09-20-19-07-41-322.png|width=16.666666666666668%!
+
+ ",Cedrick Overzee,Céline LY,Charlene MARECHAL,Christian Patzig,Erwin GUILLEMAUD,François LEROUX,Raymond Tanseri,Ryan Granville,Steven ZABALLOS,5cddeb1fa67da10dbe9d715e,60194b4dc8c36c0069a95a05,5f3542006db35e00391f56fa,62615435f698310070a9259a,5f47e7ec9a013100410bf481,5f3541c63aa35b003fe241e1,557058:f422a208-346f-422f-8b71-c34d537588a0,614b326e47a8b5006f890b7b,5f47eea8ea5e2f0039cba1bc,21600,21600,,0 %,21600,21600,,,,,,,,,,BEQ-1913,,,,,20/sept./21 7:07 PM;ug:0c6900a7-75d5-4f4e-9ebc-202b10966c55;image-2021-09-20-19-07-41-322.png;https://pictet-spf01.atlassian.net/secure/attachment/12462/image-2021-09-20-19-07-41-322.png,21/sept./21 4:38 PM;ug:0c6900a7-75d5-4f4e-9ebc-202b10966c55;image-20210921-143844.png;https://pictet-spf01.atlassian.net/secure/attachment/12475/image-20210921-143844.png,,,,,,,,,,,,,,,,BEQO-269,,,,,,2|i002me:v,,,,,,WP3 - Sprint 5,WP3 - Sprint 6,,,,,YEP improvement (green),,,,,,,"{{AS A}} 
+{{I WANT TO}} 
+{{SO THAT}} 
+",2022-06-10 14:37:56.85,,"20/sept./21 7:50 PM;60194b4dc8c36c0069a95a05;Low priority, to put out of scope WP2. To discuss next year","21/sept./21 4:38 PM;60194b4dc8c36c0069a95a05;!image-20210921-143844.png|width=1017,height=143!","05/avr./22 3:10 PM;60194b4dc8c36c0069a95a05;mobility flag to review the rule 
+
+05/04/2022: Validated by 1st review of prioritisation (high)","04/mai/22 10:41 AM;60194b4dc8c36c0069a95a05;04.05.2022: validated to very High
+
+Wait for the PA results of their analysis 
+
+To replace the Mobility flag column with different status (free text). Data to be uploaded manually. ","19/mai/22 3:31 PM;60194b4dc8c36c0069a95a05;Business deadline : 
+
+November 2022 (before the YEP kick off)",10/juin/22 4:37 PM;5f3541c63aa35b003fe241e1;[~accountid:5f47e7ec9a013100410bf481] I think in May we said we needed to check the volume or the exact cases with People Analytics to see if we need to make this change in beqom or outside. Do you have an update? ,10/juin/22 5:55 PM;5f47e7ec9a013100410bf481;[~accountid:5f3541c63aa35b003fe241e1] in any case this mobility should be reviewed. I have to write the spec to capture all corner cases,10/juin/22 5:56 PM;5f3541c63aa35b003fe241e1;ok thanks,"27/juin/22 9:49 AM;5f3541c63aa35b003fe241e1;[~accountid:5f47eea8ea5e2f0039cba1bc] [~accountid:5f47e7ec9a013100410bf481] following up on this ticket. Can you please provide beqom with the specification this week, or requalify in something different than Highest?
+
+[~accountid:614b326e47a8b5006f890b7b] [~accountid:62615435f698310070a9259a] FYI","07/juil./22 4:39 PM;5f47e7ec9a013100410bf481;Specifications regarding the active PERNR
+
+* IF PA0016_CTTYP = XA or XB or XC or XD THEN  “Short Term”
+* IF PA0016_CTTYP = XE or XF or XG or XH  THEN  “Long Term”
+* IF PA0016_CTTYP = XI or XJ or XK THEN  “Expat”
+* IF PA0016_CTTYP = XP  THEN  “Special case”
+* IF PA0016_CTTYP = XL  *AND* \[Start date of the occurrence = Year of CR +*OR*+ (Start date of the occurrence = Year +1 of CR  *AND* Month of Start date of the occurrence =< 3 (inférieur ou égal à mars) ] THEN  “Expat localisation”
+
+{color:#ff5630}For situations to check in N+1, we need to look at both : PERNR 31.12.N and PERNR 01.04.N+1{color}
+
+* IF PA0016_CTTYP = XM *AND* \[Start date of the occurrence = Year of CR +*OR*+ (Start date of the occurrence = Year +1 of CR  *AND* Month of Start date of the occurrence =< 3 (inférieur ou égal à mars) ]  THEN  “Permanent transfer”
+* IF PA0000_MASSG = *P5* AND PA0000_MASSN = 93 *AND* \[Start date of the occurrence = Year of CR +*OR*+ (Start date of the occurrence = Year +1 of CR  *AND* Month of Start date of the occurrence =< 3 (inférieur ou égal à mars) ] THEN “National Mobility”
+* IF PA0000_MASSG = +*P0*+ AND PA0000_MASSN = 93 *AND* \[Start date of the occurrence = Year of CR +*OR*+ (Start date of the occurrence = Year +1 of CR  *AND* Month of Start date of the occurrence =< 3 (inférieur ou égal à mars) ] THEN “National Mobility”
+
+[~accountid:5f3541c63aa35b003fe241e1] [~accountid:62615435f698310070a9259a] [~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] [~accountid:5f47eea8ea5e2f0039cba1bc] FYI",12/juil./22 10:46 AM;62615435f698310070a9259a;[~accountid:614b326e47a8b5006f890b7b]: Please see below the specification regarding the active PERNR. Is this clear for you? ,18/juil./22 10:42 AM;5f47e7ec9a013100410bf481;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] Please see the updated spec below,"19/juil./22 9:44 AM;557058:f422a208-346f-422f-8b71-c34d537588a0;To clarify this, we are changing the behavior of the Leaver Flag. 
+
+
+
+We used to display only Yes or Nothing, now we would like to display a specific Label depending on the status of the employee.
+
+2 Options: 
+
+We have to create a new field OR extend the TEXT to handle more than 3 characters
+
+*Option A:* 
+
+* Changes in 
+** \[*_tb_YEP_ProcessGrid_Data_Repository_Budget_Calculation*] : Extend number of characters of the LeaverFlag column
+** \[*_tb_YEP_ProcessGrid_Data_Repository*] : Extend number of characters of the LeaverFlag column
+** Some BSC Procedures and tables are also re-using the Leaver Flag, we have to alos impact those ones.
+*** _tb_BSC_Final_Scoring
+
+*Option B:* 
+
+* Change the leaver flag to show Yes if we fall into one of the listed cases below
+* Add a new column named Leaver Type OR Mobility that would display the details of the Leaver
+
+
+
+*I would suggest to go with Option B taking into consideration regression and impacts*
+
+
+
+Last question is: Can we use the PERNR of the Eligible employee as of 31 12 N?
+
+*TO DO:*
+
+* Add a new colum in *_tb_YEP_ProcessGrid_Data_Repository* named *MobilityFlag* VARCHAR(255)
+* Change Refresh in *_sp_YEP_Data_Repository_Refresh* to populate the new mobility field based on the rules provided : we need to lookup both pernr as of 31 dec and as of 1st april coming from Eligible table 
+* Change in *_vw_YEP_ProcessGrid_Template* to add the new added column
+* Add column *MobilityFlag* in the Process Grid
+* Manage visibility
+** Remove the column LeaverFlag
+** Add the column Mobility Flag
+* Reset all views
+
+
+
+FYI [~accountid:614b326e47a8b5006f890b7b] [~accountid:62615435f698310070a9259a] ","19/juil./22 12:07 PM;62615435f698310070a9259a;[~accountid:5f47e7ec9a013100410bf481] Or [~accountid:5f47eea8ea5e2f0039cba1bc]: 
+Which option below do you prefer? Option A or Option B?
+
+Also: Can we use the PERNR of the Eligible employee as of 31 12 N?
+
+[~accountid:614b326e47a8b5006f890b7b] FYI","19/juil./22 3:00 PM;5f47eea8ea5e2f0039cba1bc;In my opinion option B is ok, we will be able to choose which column we display and it will limit the collateral impacts.
+
+For the PERNR I think you should look at both
+
+[~accountid:62615435f698310070a9259a] above my guess but i prefer that you get the validation from Erwin.",26/juil./22 11:01 AM;614b326e47a8b5006f890b7b;[~accountid:5f47e7ec9a013100410bf481] [~accountid:62615435f698310070a9259a] any update on this? I would like to schedule it in the next sprint,27/juil./22 2:47 PM;62615435f698310070a9259a;[~accountid:5f47e7ec9a013100410bf481] Which option below do you prefer? Option A or Option B? Steven thinks Option B is fine.,28/juil./22 1:16 PM;5f47e7ec9a013100410bf481;[~accountid:62615435f698310070a9259a] Ok for option B and it means that we can hide the old flag leaver and just display the one with the reason. [~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] FYI,"29/juil./22 2:46 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;*Option B:*
+
+* Add a new column named Mobility Flag that would display the details of the Leaver
+
+*TO DO:*
+
+* Add a new colum in *_tb_YEP_ProcessGrid_Data_Repository* named *MobilityFlag* VARCHAR(255)
+* Change Refresh in *_sp_YEP_Data_Repository_Refresh* to populate the new mobility field based on the rules provided : we need to lookup both pernr as of 31 dec and as of 1st april coming from Eligible table
+* Change in *_vw_YEP_ProcessGrid_Template* to add the new added column
+* Add column *MobilityFlag* in the Process Grid
+* Manage visibility
+** Remove the column LeaverFlag
+** Add the column Mobility Flag
+* Reset all views
+
+Logic:
+
+
+
+*USING the PayeeID as of 31 Dec N, table _tb_YEP_Eligible_Employee column PayeeId*
+
+* IF PA0016_CTTYP = XA or XB or XC or XD THEN “Short Term”
+* IF PA0016_CTTYP = XE or XF or XG or XH THEN “Long Term”
+* IF PA0016_CTTYP = XI or XJ or XK THEN “Expat”
+* IF PA0016_CTTYP = XP THEN “Special case”
+* IF PA0016_CTTYP = XL *AND* \[Start date of the occurrence = Year of CR +*OR*+ (Start date of the occurrence = Year +1 of CR *AND* Month of Start date of the occurrence =< 3 (inférieur ou égal à mars) ] THEN “Expat localisation”
+
+*USING the PayeeID as of 31 Dec N AND 01 04, table _tb_YEP_Eligible_Employee column PayeeIdNextYear*
+
+We need to check the conditions below for both Pernr and if it fits for one of the Pernr we can flag them with the mobility flag.
+
+{color:#ff5630}For situations to check in N+1, we need to look at both : PERNR 31.12.N and PERNR 01.04.N+1{color}
+
+* IF PA0016_CTTYP = XM *AND* \[Start date of the occurrence = Year of CR +*OR*+ (Start date of the occurrence = Year +1 of CR *AND* Month of Start date of the occurrence =< 3 (inférieur ou égal à mars) ] THEN “Permanent transfer”
+* IF PA0000_MASSG = *P5* AND PA0000_MASSN = 93 *AND* \[Start date of the occurrence = Year of CR +*OR*+ (Start date of the occurrence = Year +1 of CR *AND* Month of Start date of the occurrence =< 3 (inférieur ou égal à mars) ] THEN “National Mobility”
+* IF PA0000_MASSG = +*P0*+ AND PA0000_MASSN = 93 *AND* \[Start date of the occurrence = Year of CR +*OR*+ (Start date of the occurrence = Year +1 of CR *AND* Month of Start date of the occurrence =< 3 (inférieur ou égal à mars) ] THEN “National Mobility”","17/août/22 6:18 PM;62615435f698310070a9259a;[~accountid:614b326e47a8b5006f890b7b] Are we able to develop this  in Sprint 5, since Cedrick is on vacation until 29.08.2022? ",23/août/22 10:46 AM;62615435f698310070a9259a;[~accountid:614b326e47a8b5006f890b7b] : Can you also please follow-up on this? Also Sprint 6 testing?,"29/août/22 6:32 PM;5f3542006db35e00391f56fa;Hi [~accountid:614b326e47a8b5006f890b7b] , do we know when this will be developed / deployed?
+
+[~accountid:5f3541c63aa35b003fe241e1] [~accountid:62615435f698310070a9259a]  FYI","01/sept./22 5:51 PM;5cddeb1fa67da10dbe9d715e;[~accountid:62615435f698310070a9259a] 
+
+There is already a column called Mobility flag in the process. Should we give it another name?
+
+Mobility Description?",02/sept./22 8:39 AM;62615435f698310070a9259a;[~accountid:5f47e7ec9a013100410bf481] [~accountid:5f47eea8ea5e2f0039cba1bc] : Cedrick said that we have already a column called Mobility Flag. Do you want to go with another name? Maybe as Cedrick proposed: Mobility Description? ,"05/sept./22 9:38 AM;5f47e7ec9a013100410bf481;[~accountid:5cddeb1fa67da10dbe9d715e] Hi, Ok for “Mobility Description”.
+
+But not sure to understand : the ticket was blocked only for an issue of naming of the field ?
+
+[~accountid:5f47eea8ea5e2f0039cba1bc] [~accountid:62615435f698310070a9259a] FYI","09/sept./22 3:56 PM;5cddeb1fa67da10dbe9d715e;Ready to be deployed on PP
+
+[https://excentive.egnyte.com/navigate/folder/32af004f-842c-434d-81d1-5134daa3ee13|https://excentive.egnyte.com/navigate/folder/32af004f-842c-434d-81d1-5134daa3ee13]",,,,,,,,,,,,,,En cours
+HRBP Feedback: YEP grid: adding one column for any comment (HR only),BEQO-216,15530,Story,Ready to deploy on PP,BEQO,Beqom - WP3,software,Janna Chollet,608176b2b892750072a3c52e,,Highest,,Raymond Tanseri,557058:f422a208-346f-422f-8b71-c34d537588a0,Céline LY,60194b4dc8c36c0069a95a05,Céline LY,60194b4dc8c36c0069a95a05,28/juil./21 7:49 PM,06/sept./22 10:19 AM,06/sept./22 1:36 PM,,,,,0,changerequest,"Raised by Anne: She suggests to add in the YEP grid a comment column for the Managers, for example to add a comment if the bonus is at 0
+
+
+
+others HRBPS/BL comp feedback: 
+
+* there is already a free text for the promotion comment. Can you challenge DPO (but i am sure you already did it)? List is quite restrictive..
+* We need the free text to comment the compliance breaches and the associated bonus reductions. 
+*  it depends BL practices, So Free text with no obligation to fill
+* T&O: don't want any reason field (list or free comment) for not giving a bonus. It means you have to justify why you don't give a bonus? Bad idea. It's a standard by us (T&O and LOG). We give a bonus once in a while an not every year. If there is a field then justify why you give a bonus, not why you don't give one.
+*  filling the field should not be mandatory because bonus is zero. In my opinion, we just need a general free text comment field.",Cedrick Overzee,Céline LY,Christian Patzig,François LEROUX,Jérémy Devendeville,Raymond Tanseri,Ryan Granville,Steven ZABALLOS,,5cddeb1fa67da10dbe9d715e,60194b4dc8c36c0069a95a05,62615435f698310070a9259a,5f3541c63aa35b003fe241e1,5f35423e91e67a003f78e6ce,557058:f422a208-346f-422f-8b71-c34d537588a0,614b326e47a8b5006f890b7b,5f47eea8ea5e2f0039cba1bc,,57600,57600,,0 %,57600,57600,,,BEQO-1183,,,,,,,BEQO-81,BEQO-1302,BEQO-1104,BEQO-1105,BEQO-1106,17/juin/22 4:31 PM;szaballos;image-20220617-142801.png;https://pictet-spf01.atlassian.net/secure/attachment/14057/image-20220617-142801.png,29/juin/22 10:20 AM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220629-081837.png;https://pictet-spf01.atlassian.net/secure/attachment/14160/image-20220629-081837.png,10/août/22 5:02 PM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220810-150208.png;https://pictet-spf01.atlassian.net/secure/attachment/14529/image-20220810-150208.png,05/sept./22 3:56 PM;ug:2f55e6f8-eccb-4aed-a758-b53d9d867ac9;image-20220905-135602.png;https://pictet-spf01.atlassian.net/secure/attachment/14704/image-20220905-135602.png,,,,,,,,,,,,,PRE-PROD,BEQO-269,,,,,,2|hzzhin:000zv,,,,,,WP3 - Sprint 4 (18/07-05/08),WP3 - Sprint 5,WP3 - Sprint 6,,,,YEP improvement (green),,,,,,,"{{AS A}} 
+{{I WANT TO}} 
+{{SO THAT}} 
+",2021-07-29 10:13:21.645,,29/juil./21 12:13 PM;5f35423e91e67a003f78e6ce;We need to add a new column with Max value linked to a grid to allow the flexibilty + a control.,29/juil./21 6:40 PM;60194b4dc8c36c0069a95a05;To see next year,16/nov./21 5:46 PM;5f3541c63aa35b003fe241e1;[~accountid:60194b4dc8c36c0069a95a05] to check with DPO first (Gaelle de Cannière),19/nov./21 11:37 AM;60194b4dc8c36c0069a95a05;maybe to make it editable only for HR? ,"30/nov./21 10:59 AM;557058:f422a208-346f-422f-8b71-c34d537588a0;Specify:
+
+* Where to add the column
+* Label of the column
+* Who could edit the field
+
+Proposal Extract Grid to be changed as well to also extract this new comment field.
+
+* Change Table structure
+* Change Grid
+
+Estimated To 5h hours.","17/déc./21 9:49 AM;60194b4dc8c36c0069a95a05;It was put as a low priority since last week.
+
+ I already ask some HRBPs/BL comp and for now, we would need a workshop and do deeper analysis with DPO.
+
+HR Bl comp wants to have a “Comment” field with free text and no dropdown list (they say it’s too restrictive and it doesn’t fit to all BL needs) to be able to: 
+
+* comment the compliance breaches and the associated bonus reductions (PAM) or 
+* insert details about double currency bonuses (PAM) or 
+* justify why would a Manager put 0 bonus to an employee (CF) or 
+* justify why a Manager would give y bonus (T&O) or 
+
+So the comment need would be a general free text. But I would need to check with DPO if if’s ok. and then confirm the needs 
+
+* Where to add the column → TBD
+* Label of the column → “Comment” but TBD
+* Who could edit the field → Everyone : Managers and HR BL and CAS ","18/janv./22 11:08 AM;60194b4dc8c36c0069a95a05;Additional comment from an HRBP (Leslie on 14/01) : 
+
+“Ce serait bien d’avoir une section commentaires (avec l’audit trail par ex ou anywhere) pour se souvenir du pourquoi des changements et peut etre avoir l’argumentaire des managers par personne (pas que sur le pourquoi de la nom).” 
+
+→ She would like to have a comment field which could be brought back from CR to CR. That would allow the user to remember the previous Manager’s or the HR’s comment on some justifications/reasons of some bonuses ",05/avr./22 2:40 PM;60194b4dc8c36c0069a95a05;05/04/2022: Validated by 1st review of prioritisation (high),"04/mai/22 10:19 AM;60194b4dc8c36c0069a95a05;04.05.2022: validated to Very high
+
+One column to add as free text
+
+Editable by any HR 
+
+Read only by Managers 
+
++ see previous comments of lastest comment of the 3 last comp round (in the report below)
+
+To discuss and validated with DPO ",04/mai/22 10:29 AM;60194b4dc8c36c0069a95a05;+ unlimited characters please,"11/mai/22 4:30 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;* One new column to be added in process grid
+** Label ? Location?
+* Which report has to be changed to see past comments from prior round?
+* Proposal Extract to be changed to store the comments and to be re-used for next ronds","19/mai/22 3:30 PM;60194b4dc8c36c0069a95a05;Business deadline : 
+
+November 2022 (before the YEP kick off)",03/juin/22 1:44 PM;614b326e47a8b5006f890b7b;[~accountid:5f3541c63aa35b003fe241e1] [~accountid:62615435f698310070a9259a] We are adding this into sprint 2 as we see we have some additional capacity available,"03/juin/22 2:23 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:5f3541c63aa35b003fe241e1] [~accountid:62615435f698310070a9259a] 
+
+We still need the answer on the following
+
+* One new column to be added in process grid
+** Label ? Location?
+* Which report has to be changed to see past comments from prior round?
+
+fyi [~accountid:5cddeb1fa67da10dbe9d715e] 
+
+
+
+*To Update the SQL Objects*
+
+# _tb_YEP_Repository_Process_Grid_Proposal (add column)
+# _tb_YEP_Repository_Process_Grid_Proposal_History (add column)
+# _vw_YEP_Process_Grid_Values_Repository_Master_View (add column from k m values)
+# _vw_YEP_Process_Grid_Values_Repository_History_Master_View (add column from table _tb_YEP_Repository_Process_Grid_Proposal)
+# \[sp_grid_save_post_tb_YEP_Repository_Process_Grid_Proposal_Action] : to update the table form k m values
+# Add the column in proposal extract Grid
+
+
+*In Process Grid : add input field* 
+
+*In Report : Show 3 latest data from the Proposal table*",03/juin/22 4:48 PM;62615435f698310070a9259a;[~accountid:5f47e7ec9a013100410bf481] : May I please ask to to clarify to question from Raymond? ,"03/juin/22 6:20 PM;5f3541c63aa35b003fe241e1;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] [~accountid:614b326e47a8b5006f890b7b]  actually reading the history of this ticket it says it requires DPO validation, which we don’t have yet. I will follow up but +*please do not*+ start the devts on this. Please select other tickets in the backlog if you want to use the spare capacity.",03/juin/22 6:20 PM;5f3541c63aa35b003fe241e1;CRB2,"06/juin/22 10:05 PM;614b326e47a8b5006f890b7b;Understood, this was brought back into the backlog, waiting for confirmation, I am assigning it to you [~accountid:5f3541c63aa35b003fe241e1] as we await an update on this to proceed, but please let me know to whom I should be assigning it if this is not correct.","08/juin/22 4:45 PM;5f3541c63aa35b003fe241e1;+*CRB 08/06*+: 
+
+Justification: documenting Compliance breaches + documenting year N-1 history of performance in case of employee mobility.
+
+Favored option= 1 new field with a drop down list (multiple choice)
+
+[~accountid:5f47ea3a3e9e2e004d3d563f] to provide the list of the drop down values (mobility, compliance issue…)
+
+[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] to refresh the effort estimate with this assumption","15/juin/22 1:36 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:5f3541c63aa35b003fe241e1] Do we just need a new dropdown list field ?  Do you need us to display the historical values in a report?
+
+FYI [~accountid:614b326e47a8b5006f890b7b] [~accountid:62615435f698310070a9259a] ","16/juin/22 1:48 PM;5f3541c63aa35b003fe241e1;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] , yes, both please.","17/juin/22 11:02 AM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:5f3541c63aa35b003fe241e1] [~accountid:614b326e47a8b5006f890b7b] 
+
+The estimate remains the same. 2d as its just going from a comment free text to a dropdown list.
+
+The 2 answers are also needed:
+
+* One new column to be added in process grid
+** Label ? Location?
+* Which report has to be changed to see past comments from prior round?","17/juin/22 4:00 PM;5f3541c63aa35b003fe241e1;FYI I rechecked with DPO. They are very negative about adding a free text column. They are very much in favour of giving a structured field with a drop-down menu, with non-sensitive proposed values.
+
+[~accountid:5f47e7ec9a013100410bf481] [~accountid:5f47eea8ea5e2f0039cba1bc]  can you please answer to Raymond’s question, and also confirm the final version of the requirement (drop-down, list of values, etc.) before we validate it? Thanks","17/juin/22 4:31 PM;5f47eea8ea5e2f0039cba1bc;[~accountid:5f3541c63aa35b003fe241e1] First of all are you sure we don't have duplicates on this ticket?  I expressed it in Post Yep improvement about adding a comment column with free text. But I see that this ticket is from last year. 
+
+And there is a confusion / misunderstanding of the improvement that is sought.
+The aim here is to have a free text area to avoid having to keep a *milk book* which often generates errors. In my opinion, the drop down list does not meet the need expressed by HRPBs.
+
+To answer Raymond's questions, it seems to me that we already clarified them during the workshop sessions.
+
+Positioning in the YEP Grid I would tend to place it at the end before the Local Manager block. To be validated with others.
+
+!image-20220617-142801.png|width=1048,height=134!
+
+For the label title: *YEP Comments*
+
+
+For the drop down list can't we have a table where we can adjust the available values?
+For the moment my guess are: Capping, Performance Issue, Outlier, Compliance Breach, Increase to be considered next year, Mobility with Split.
+May be on the CoE we can gather the CoE members feedback?
+
+For the report, it seems to me that during the workshop we discussed the idea that either a pop-up could be opened with the history of the comments during the previous Comp Round.
+
+Available if not clear 🙂 ","17/juin/22 4:52 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:62615435f698310070a9259a] [~accountid:5f47eea8ea5e2f0039cba1bc] [~accountid:5f3541c63aa35b003fe241e1] 
+
+We need a meeting to discuss this ticket with others as I am  lost now. ListBox + Comments free input?  
+
+Can you set up a meeting [~accountid:62615435f698310070a9259a] to discuss this?
+
+Thanks.",20/juin/22 9:55 AM;5f3541c63aa35b003fe241e1;I have planned this for the next CRB,"20/juin/22 2:11 PM;5f3541c63aa35b003fe241e1;+*CRB 20/06*+: decision in light of DPO opinion, beqom’s questions and business discussions:
+
+ [~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0]; OK to go ahead:
+
+* drop-down menu
+* use the values and specifications from Steven comment below 
+* have the ability to have a grid for CAS to maintain the values in the drop-down menu
+* no impact on existing reports; the value will only be shown in the YEP grid as a “pense-bête”.",22/juin/22 4:18 PM;614b326e47a8b5006f890b7b;[~accountid:62615435f698310070a9259a] can you add this to the agenda of our meeting on Friday? We need business clarification.,"27/juin/22 9:51 AM;5f3541c63aa35b003fe241e1;[~accountid:614b326e47a8b5006f890b7b] [~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] can you please list your remaining questions after my (attempt for) clarification below, and direct them to [~accountid:5f47eea8ea5e2f0039cba1bc] ? thanks
+
+[~accountid:62615435f698310070a9259a] FYI",27/juin/22 2:46 PM;614b326e47a8b5006f890b7b;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] tagging you on this as it should be ready to design,"27/juin/22 3:21 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;Still not clear. I was waiting to clarify this tomorrow [~accountid:5f3541c63aa35b003fe241e1] [~accountid:614b326e47a8b5006f890b7b] 
+
+After the comments of [~accountid:5f47eea8ea5e2f0039cba1bc] :
+
+* Dropdownlist with options below: 
+** Capping
+** Performance Issue
+** Outlier
+** Compliance Breach
+** Increase to be considered next year
+** Mobility with Split
+* We talked about an history report - but we never talked about where to show this. Is it a new report or as part of the Tracing report? 
+* Location: Pat of the Total Target Compensation Indicator, at the end. 
+* Workflow: Rights . HRBP and BL Comp, CAS. Managers can see the field
+
+[~accountid:62615435f698310070a9259a] Can you make sure we discuss that one as well tomorrow? Thanks","27/juin/22 3:31 PM;5f47eea8ea5e2f0039cba1bc;Hello [~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0]  forget the free input for the text I missed some discussion. 
+
+For the history report is it possible if i click on the comment zone tho have a pop up with this history? Or he has to displayed as Dashboard functionality? 
+
+Let’s clarify it tomorrow","29/juin/22 10:20 AM;557058:f422a208-346f-422f-8b71-c34d537588a0;As agreed:
+
+*Process Grid:*
+
+* Dropdownlist with options below:
+** Capping
+** Performance Issue
+** Outlier
+** Compliance Breach
+** Increase to be considered next year
+** Mobility with Split
+* Location: Part of the Total Target Compensation Indicator, at the end.
+* Workflow: Rights . HRBP and BL Comp, CAS can edit. Managers can read the field
+
+*Comp Evolution report:*
+
+* YEP Comment column to be added to Compensation Evolution, for the Year of the Round i:e Performance Year
+
+!image-20220629-081837.png|width=538,height=254!
+
+
+
+* In SQL:
+
+*To Update the SQL Objects*
+
+# _tb_YEP_Repository_Process_Grid_Proposal (add column)
+# _tb_YEP_Repository_Process_Grid_Proposal_History (add column)
+# _vw_YEP_Process_Grid_Values_Repository_Master_View (add column from k m values)
+# _vw_YEP_Process_Grid_Values_Repository_History_Master_View (add column from table _tb_YEP_Repository_Process_Grid_Proposal)
+# \[sp_grid_save_post_tb_YEP_Repository_Process_Grid_Proposal_Action] : to update the table form k m values
+# Add the column in proposal extract Grid
+
+FYI [~accountid:5cddeb1fa67da10dbe9d715e] [~accountid:614b326e47a8b5006f890b7b] ","01/août/22 11:40 AM;5cddeb1fa67da10dbe9d715e;Deployed on DEV and TEST
+
+Ready to be deployed on PP
+
+Test Case: Go to the process on play with the column Comment with different profiles",08/août/22 4:50 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;Deployed on PP,08/août/22 4:56 PM;62615435f698310070a9259a;[~accountid:5f47eea8ea5e2f0039cba1bc] & [~accountid:605b13d82ce4be0071ec4abb] Can you please test this US?,10/août/22 10:24 AM;5f47eea8ea5e2f0039cba1bc;Hello [~accountid:62615435f698310070a9259a] Not sure why we have to test this US when it is in our test playlist [https://pictet-spf01.atlassian.net/browse/BEQO-1104|https://pictet-spf01.atlassian.net/browse/BEQO-1104|smart-link] ,"10/août/22 5:02 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:5cddeb1fa67da10dbe9d715e] 
+
+As listed in the spec, we were expecting to have the comment column in the report comp evolution.
+
+!image-20220810-150208.png|width=836,height=516!
+
+
+
+But I can see this is neither in DEV, nor in TEST.
+
+Please make sure to perform all needed tests following the specs I detailed.
+
+Thanks.
+
+FYI [~accountid:614b326e47a8b5006f890b7b] ","05/sept./22 3:56 PM;5cddeb1fa67da10dbe9d715e;Added and deployed on Dev and Test
+
+Ready to deploy
+
+!image-20220905-135602.png|width=1176,height=582!",En cours
+Team Comparison: Add a parameter table that allows the user to switch between currencies,BEQO-167,15474,Story,Ready to deploy on PP,BEQO,Beqom - WP3,software,Janna Chollet,608176b2b892750072a3c52e,,High,,Raymond Tanseri,557058:f422a208-346f-422f-8b71-c34d537588a0,Céline LY,60194b4dc8c36c0069a95a05,Céline LY,60194b4dc8c36c0069a95a05,22/juil./21 6:30 PM,07/sept./22 9:18 AM,06/sept./22 1:39 PM,,,,,0,,"As discussed with BL and HRBPS on 22/07/2021: 
+Preferences by BL: 
+
+* PAM : wants to have max CCY  (majority of the CCY will be displayed)
+* PWM: All in CHF 
+*  T&Ops: Max CCY (majority of the CCY will be displayed)
+* Anne R --> All in CHF
+* Sylvie: CCY of the Manager that is logged
+* Claudia and Leslie: CCY of the Manager that is logged (but the question is : when you are not manager (ie HRBP), in which CCY will you see the dashboards?
+
+Developped in WP2: Max CCY in both dashboards. ",Cedrick Overzee,Céline LY,Christian Patzig,Erwin GUILLEMAUD,François LEROUX,Raymond Tanseri,Ryan Granville,Steven ZABALLOS,,5cddeb1fa67da10dbe9d715e,60194b4dc8c36c0069a95a05,62615435f698310070a9259a,5f47e7ec9a013100410bf481,5f3541c63aa35b003fe241e1,557058:f422a208-346f-422f-8b71-c34d537588a0,614b326e47a8b5006f890b7b,5f47eea8ea5e2f0039cba1bc,,43200,43200,,0 %,43200,43200,,,,BEQO-475,BEQO-186,,,,,BEQO-1116,,BEQO-1620,,,27/juil./22 11:09 AM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220727-075230.png;https://pictet-spf01.atlassian.net/secure/attachment/14358/image-20220727-075230.png,27/juil./22 11:09 AM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220727-090512.png;https://pictet-spf01.atlassian.net/secure/attachment/14359/image-20220727-090512.png,27/juil./22 11:09 AM;ug:0c2095eb-5243-4415-875a-99cab6d91b7e;image-20220727-090831.png;https://pictet-spf01.atlassian.net/secure/attachment/14357/image-20220727-090831.png,05/sept./22 4:48 PM;ug:2f55e6f8-eccb-4aed-a758-b53d9d867ac9;image-20220905-144822.png;https://pictet-spf01.atlassian.net/secure/attachment/14707/image-20220905-144822.png,,,,,,,,,,,,,,BEQO-272,,,,,,2|i002me:x,,,,,,WP3 - Sprint 5,WP3 - Sprint 6,,,,,YEP improvement (green),,,,,,,"{{AS A}} 
+{{I WANT TO}} 
+{{SO THAT}} 
+",2022-06-27 13:13:20.543,,"22/juil./21 6:31 PM;60194b4dc8c36c0069a95a05;[~accountid:604f405406cbba006ad7cda1] Hello, we will need to support the manager with the explanation of the display of CCY in these dashboards during Change management ",27/juin/22 3:13 PM;5f3541c63aa35b003fe241e1;check consistency with [https://pictet-spf01.atlassian.net/browse/BEQO-475|https://pictet-spf01.atlassian.net/browse/BEQO-475|smart-link] and [https://pictet-spf01.atlassian.net/browse/BEQO-186|https://pictet-spf01.atlassian.net/browse/BEQO-186|smart-link].,"27/juin/22 3:29 PM;5f3541c63aa35b003fe241e1;[~accountid:5f47eea8ea5e2f0039cba1bc] and [~accountid:5f47e7ec9a013100410bf481]; 
+
+I suggest the following specification to synthetize the requirements in tickets 167, 475 and 186 → {color:#bf2600}*Can you please validate the requirement?*{color}
+
+* impact on +Budget Monitoring+ + +Team Comparison+ + +Comp evolution+ dashboards.
+* for +YEP Managers+, +HRBPs+, +BL Comp+, +CAS+
+* by +default+ the currency of the dashboard should be as today (WP2)
+* ability to +select one currency+ to display in the dashboard.
+* ability to select and option to display the dashboard with each +employee’s real currency+, including the historical real currency.
+
+[~accountid:62615435f698310070a9259a] FYI
+","27/juin/22 3:51 PM;5f47eea8ea5e2f0039cba1bc;[~accountid:5f3541c63aa35b003fe241e1] May we reviewed the title and the description of user story? To avoid any confusion. 
+
+Title: Currency selection functionality for consolidation and displayed data in different Dashboard / Report
+
+Please add impact on “Guideline Monitoring” Dashboard and in “HR Guideline Monitoring” Report","27/juin/22 4:23 PM;5f3541c63aa35b003fe241e1;[~accountid:5f47eea8ea5e2f0039cba1bc] i updated the title, but for now not the main body as i don’t want to loose the history of discussions.
+
+Please let me know if my spec is fine for you","27/juin/22 4:28 PM;5f47eea8ea5e2f0039cba1bc;[~accountid:5f3541c63aa35b003fe241e1] got it for the main body. 
+
+I am agree with your spec",27/juin/22 4:30 PM;5f3541c63aa35b003fe241e1;thanks. [~accountid:5f47e7ec9a013100410bf481] ?,"08/juil./22 5:25 PM;5f47e7ec9a013100410bf481;[~accountid:5f3541c63aa35b003fe241e1] Your spec sounds very good but the following is not feasible by beqom (feature not existing):
+
+* ability to +select one currency+ to display in the dashboard.
+
+For these reason a rule has to be decided : either we display in the CCY of the manager, either we display in the CCY of the manager either we display in the CCY of the more represented CCY in the sample 
+
+[~accountid:62615435f698310070a9259a] [~accountid:5f47eea8ea5e2f0039cba1bc] FYI",13/juil./22 11:42 AM;62615435f698310070a9259a;[~accountid:5f47e7ec9a013100410bf481] Do we need a meeting to decided with which rule we want to continue?,"19/juil./22 4:18 PM;5f3541c63aa35b003fe241e1;[~accountid:62615435f698310070a9259a] yes please organise a 15' meeting with Steven, Erwin and Raymond or Jeremiasz. thx",22/juil./22 11:23 AM;62615435f698310070a9259a;Update: Call will take place on 26. July at 2pm.,"27/juil./22 11:09 AM;557058:f422a208-346f-422f-8b71-c34d537588a0;*Proposal*: Add a parameter table that allows the user to switch between currencies
+
+*Note*: this is a look-a-like “control” table but remember this is a report
+
+
+
+Based on the comments in the description and to cover all cases:
+
+* CHF is mandatory (PWM, Anne)
+* Max of CCY displayed for the current population:(PAM, T&Ops)
+* Currency of the manager / HRBP logged in (CCY determined through the Country of the user ) (Claudia, Leslie, Sylvie)
+* Do you need another CCY by default?
+
+
+if the CCY is the same for all cases, we will not give the ability to switch CCY, but  just display the CCY in the table
+
+
+
+Then if the user wants to display the report in the CCY, he would have to click on the corresponding CCY to select the CCY.
+
+As an example below, this would be a list of radio button and CCY displayed:
+
+* CHF =>(default)
+* EUR => Max CCY
+* GBP => Manager CCY
+
+!image-20220727-075230.png|width=800,height=410!
+
+
+
+1 - To be changed in Team Comparison:
+
+!image-20220727-090512.png|width=1067,height=709!
+
+
+
+* Change in the RDL file to have a CCY passed as parameter
+* Manage table to checked / unchecked the corresponding CCY
+* After checking one CCY, pass the parameter to the SPs used in Team Comparison report
+* Convert the amounts in the SP by using the parameter
+
+
+
+
+
+2 - To be changed in Budget Monitoring:
+
+!image-20220727-090831.png|width=1432,height=520!
+
+
+
+* Change in the RDL file to have a CCY passed as parameter
+* Manage table to checked / unchecked the corresponding CCY
+* After checking one CCY, pass the parameter to the SPs used in Guideline Monitoring report
+* Convert the amounts in the SP by using the parameter
+
+
+
+[~accountid:62615435f698310070a9259a] 
+
+We need this ticket to be split into 2 to be able to estimate this properly.
+
+
+
+FYI [~accountid:5f3541c63aa35b003fe241e1] [~accountid:614b326e47a8b5006f890b7b] 
+
+ ",27/juil./22 2:26 PM;614b326e47a8b5006f890b7b;[~accountid:62615435f698310070a9259a] or in other words we need one US for the team comparison report and another one for the budget monitor. We can keep Team comparison here and you can create a new one for Budget monitor. All clear? Thanks for your help,"27/juil./22 2:50 PM;557058:f422a208-346f-422f-8b71-c34d537588a0;[~accountid:62615435f698310070a9259a] 
+
+[~accountid:5f47eea8ea5e2f0039cba1bc] [~accountid:5f47e7ec9a013100410bf481] 
+
+There are 2 questions :
+
+By default, the first time the report is executed, we will display the values in CHF. 
+
+Then, for others CCY, based on the comments in the description and to cover all cases:
+
+* CHF will be displayed (PWM, Anne)
+* Max of CCY displayed for the current population:(PAM, T&Ops)
+* Currency of the manager / HRBP logged in (CCY determined through the Country of the user ) (Claudia, Leslie, Sylvie)
+* Do you need another CCY by default?
+
+FYI [~accountid:614b326e47a8b5006f890b7b] ",27/juil./22 2:58 PM;62615435f698310070a9259a;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] : US created –>  May I please ask you to estimate the ticket?,"27/juil./22 3:48 PM;5f47eea8ea5e2f0039cba1bc;[~accountid:557058:f422a208-346f-422f-8b71-c34d537588a0] from my perspective your proposition fit at 100% of the needs. 
+
+CHF 
+
+Manager CCY 
+
+Max of CCY displayed for the current populatio","17/août/22 6:20 PM;62615435f698310070a9259a;[~accountid:614b326e47a8b5006f890b7b] Are we able to develop this in Sprint 5, since Cedrick is on vacation until 29.08.2022?",23/août/22 10:47 AM;62615435f698310070a9259a;[~accountid:614b326e47a8b5006f890b7b] : Can you also please follow-up on this? Also Sprint 5 testing?,"29/août/22 9:01 AM;614b326e47a8b5006f890b7b;[~accountid:62615435f698310070a9259a] similarly as for other YEP tickets tagged on Cedrick, this will be handled tomorrow upon his return from OOO.","04/sept./22 10:43 PM;5cddeb1fa67da10dbe9d715e;Deployed on Dev and Test but 2 issues remains . 
+
+* Perf issue (take too long to display)
+* Current doesn’t change for value for 2022 and 2023 -->looks like due to not having exchange rates for the future","05/sept./22 4:47 PM;5cddeb1fa67da10dbe9d715e;It’s working some performance improvment might be need, it depends on how it behave on PProd 
+
+Ready to be deployed
+
+[https://excentive.egnyte.com/navigate/folder/c044cad6-d2ee-4378-bc92-a09049a745cd|https://excentive.egnyte.com/navigate/folder/c044cad6-d2ee-4378-bc92-a09049a745cd]","05/sept./22 4:48 PM;5cddeb1fa67da10dbe9d715e;!image-20220905-144822.png|width=1187,height=410!",,,,,,,,,,,,,,,,,,En cours

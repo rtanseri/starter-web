@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Raymond Tanseri ray.tanseri@gmail.com
+	
+	Hey hey hey
+
+# THANKS
+
+    to you
+
+# TECHNOLOGY COLOPHON
+ae a
+    HTML5, CSS3
+    jQuery, Modernizr
