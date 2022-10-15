@@ -12,6 +12,7 @@ My new text
 Text on feature branch
 
 Text on feature branch2
+my TEST
 ae a
 Text on MAIN 
 
