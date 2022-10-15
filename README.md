@@ -2,6 +2,7 @@
 
 This repository is for showing how Git and GitHub work
 
+New Files updated Stash
 ## Purpose
 
 Sample website with plenty of files for demos
