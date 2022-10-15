@@ -14,6 +14,8 @@ Text on feature branch2
 
 Text on MAIN 
 
+Master progressing
+
 Text on MAIN 2
 
 Text on MAIN 3
