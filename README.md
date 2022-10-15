@@ -20,6 +20,7 @@ Text on MAIN 2
 
 Text on MAIN 3
 
+bug 2 resolution
 ## Copyright
 
 
